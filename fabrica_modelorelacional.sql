@@ -1,3 +1,5 @@
+-- GITHUB: https://github.com/joaomateusUTFPR/banco__de__dados/blob/main/fabrica_modelorelacional.sql
+
 DROP TABLE IF EXISTS TRABALHA;
 DROP TABLE IF EXISTS OPERA;
 DROP TABLE IF EXISTS FABRICA;
