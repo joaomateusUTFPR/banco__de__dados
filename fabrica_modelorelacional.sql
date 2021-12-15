@@ -30,13 +30,13 @@ CREATE TABLE FUNCIONARIOS(
 CREATE TABLE DEPARTAMENTO(
 		registro INTEGER PRIMARY KEY,
         nome VARCHAR(100),
-        local VARCHAR(100)
+        localidade VARCHAR(100)
 );
 
 CREATE TABLE MAQUINA(
 		registro INTEGER PRIMARY KEY,
         tipo VARCHAR(100),
-        local VARCHAR(100)
+        localidade VARCHAR(100)
 );
 
 CREATE TABLE TRABALHA(
@@ -89,7 +89,7 @@ CREATE TABLE POSSUI(
 CREATE TABLE FORNECEDOR(
 		cnpj INTEGER PRIMARY KEY,
         nome VARCHAR(100),
-        local VARCHAR(100),
+        localidade VARCHAR(100),
         contato VARCHAR(100)
 
 );
@@ -105,7 +105,7 @@ CREATE TABLE FORNECE(
 CREATE TABLE REVENDEDOR(
 		cnpj INTEGER PRIMARY KEY,
         nome VARCHAR(100),
-        local VARCHAR(100),
+        localidade VARCHAR(100),
         contato VARCHAR(100)
 );
 
@@ -135,7 +135,7 @@ CREATE TABLE GUARDA(
 CREATE TABLE LOJA(
 		cnpj INTEGER PRIMARY KEY,
         nome VARCHAR(100),
-        local VARCHAR(100),
+        localidade VARCHAR(100),
         contato VARCHAR(100)
 );
 
@@ -150,7 +150,7 @@ CREATE TABLE VENDE(
 CREATE TABLE DISTRIBUIDORA(
 		cnpj INTEGER PRIMARY KEY,
         nome VARCHAR(100),
-        local VARCHAR(100),
+        localidade VARCHAR(100),
         contato VARCHAR(100)
 );
 
